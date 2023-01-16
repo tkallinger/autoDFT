@@ -18,5 +18,6 @@ Input:
 |```plots```| create standard UltraNEst plots for each prewithening step (default=False)|
 |```os```| oversampling factor for computation of the Fourier amplitude spectra (default=5)|
 |```snr_box```| Frequency box size in which the local Fourier noise around found frequency is computed (default=2)|
+|```df_factor```| sets the frequency parameter limits for the UltraNest fits. In units of formal frequency resolution, 1/T (default=3)|
 |```write_spec```| write Fourier amplitude spectrum for each prewithening step (default=False)|
 |```path```| path to folder in which all input and output is located (default='')|
