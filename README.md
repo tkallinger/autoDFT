@@ -21,7 +21,7 @@ autoDFT(filename, frange, <iter_max, df_factor, snr_box, write_res, plots, path=
 |```plots```| create standard UltraNEst plots for each prewithening step (default=False)|
 |```path```| path to folder in which all input and output is located (default='')|
 
-The main output of autoDFT is a list of the found frequencies ```<filename>.flist```
+The main output of autoDFT is a list of all found frequencies ```<filename>.flist```
 
 ```
 file: <filename>
@@ -34,3 +34,4 @@ local SNR: +/-<snr_box>
        0.446666        0.000019          1.2392          0.0026           0.308           0.000           1.000           17.93           13.78
 ```
 
+The phase 0 at parameter gives the point in time at which the phase of all fitted frequencies is 0. Currently it is set to the centre of the time series.
