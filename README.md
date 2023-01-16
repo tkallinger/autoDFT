@@ -35,3 +35,5 @@ local SNR: +/-<snr_box>
 ```
 
 ```phase 0 at``` gives the point in time at which the phase of all fitted frequencies is 0. Currently it is set to the centre of the time series. ```f```, ```a```, and ```p``` are the frequency, amplitude, and phase of the individual fitted frequencies with their corresponding 1-sigma uncertainties (```_err```). ```ev``` is the Bayesian evidence that a peak is real, i.e. not due to noise. ```globalSNR``` and ```localSNR``` are the signal to noise ratios of a given peak with respect to the full considered frequency range (```frange```) and locally around (```snr_box```) the peak. 
+
+For more detail see [Kallinger & Weiss (2017)](https://ui.adsabs.harvard.edu/abs/2017sbcs.conf..113K/abstract)
