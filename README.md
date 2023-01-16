@@ -13,3 +13,6 @@ Input:
 | --- | --- |
 |```<filename>```| file that contains the timeseries. Currently, a 3-column format is required with x, y, y_err. If a different format should be used, adopt the function read_ts()|
 |```frange=[f_min, f_max]```| frequency range (in units of 1/x) that is considered in the analysis|
+|```iter_max```| number of prewithening steps (default=)|
+|```write_res```| write residual time series after iter_max steps (default=False)|
+|```plots```| create standard UltraNEst plots for each prewithening step (default=False)|
