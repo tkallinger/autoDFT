@@ -24,12 +24,13 @@ autoDFT(filename, frange, <iter_max, df_factor, snr_box, write_res, plots, path=
 The main output of autoDFT is a list of the found frequencies ```<filename>.flist```
 
 ```
-file: TESS.cor.dat
-frange: 0 - 2
-phase 0 at: 6127.061155707016
-local SNR: +/-1.0c/d
+file: <filename>
+frange: <f_min> - <f_max> 
+phase 0 at: <x_phase=0>
+local SNR: +/-<snr_box>
 
      f                 f_err             a               a_err            p               p_err           ev              globalSNR       localSNR
 --------------------------------------------------------------------------------------------------------------------------------------------------
        0.446666        0.000019          1.2392          0.0026           0.308           0.000           1.000           17.93           13.78
+```
 
