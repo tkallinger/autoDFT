@@ -10,5 +10,5 @@ autoDFT(<filename>,frange=[f_min,f_max],iter_max=int, write_res=True/False, plot
 ```
 Input:
 
-```<filename>``` ... file that contains the timeseries. Currently, a 3-column format is required with x, y, y_err. If a different format should be used, adopt the function read_ts()
+```<filename>``` ... file that contains the timeseries. Currently, a 3-column format is required with x, y, y_err. If a different format should be used, adopt the function read_ts()\\
 ```frange=[f_min, f_max]``` ... frequency range (in units of 1/x) that is considered in the analysis
