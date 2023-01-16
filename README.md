@@ -1,6 +1,6 @@
 # autoDFT
 
-https://johannesbuchner.github.io/UltraNest/index.html
+autoDFT needs UltraNest installed. Follow the instructions on https://johannesbuchner.github.io/UltraNest/index.html
 
 ```
 from autoDFT import autoDFT
