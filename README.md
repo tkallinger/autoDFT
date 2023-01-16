@@ -6,7 +6,7 @@ run autoDFT
 
 ```
 from autoDFT import autoDFT
-autoDFT(filename, frange, iter_max, df_factor=3, snr_box=2, write_res=False, plots=False, path='',os=5, write_spec=False):
+autoDFT(filename, frange, iter_max, df_factor=3, snr_box=2, write_res=False, plots=False, path='',os=5, write_spec=False)
 ```
 Input:
 | Parameter | Description |
