@@ -8,7 +8,6 @@ run autoDFT
 from autoDFT import autoDFT
 autoDFT(filename, frange, <iter_max, df_factor, snr_box, write_res, plots, path='',os, write_spec>)
 ```
-Input:
 | Parameter | Description |
 | --- | --- |
 |```<filename>```| file that contains the timeseries. Currently, a 3-column format is required with x, y, y_err. If a different format should be used, adopt the function read_ts()|
@@ -22,5 +21,4 @@ Input:
 |```plots```| create standard UltraNEst plots for each prewithening step (default=False)|
 |```path```| path to folder in which all input and output is located (default='')|
 
-Output:
 The main output of autoDFT is a list of the found frequencies ```<filename>.flist```
